@@ -19,7 +19,7 @@ class Calculator {
     
     // MARK: Method(s) a.k.a. Function(s)
     func addToNewValue(digit : String) {
-        providedValue = providedValue.appending(digit)
+        providedValue = providedValue + digit
     }
     
     /**
@@ -93,7 +93,7 @@ class Calculator {
             computedValue = computedValue! * Double(providedValue)!
         } else if operation == Operation.division {
             computedValue = computedValue! / Double(providedValue)!
-        }
+        } 
         
         // The operation selected has been performed, so get ready to receive new operation
         // and new value
