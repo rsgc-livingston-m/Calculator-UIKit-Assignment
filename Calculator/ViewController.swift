@@ -1,4 +1,4 @@
-//
+   //
 //  ViewController.swift
 //  Calculator
 //
@@ -27,9 +27,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onePressed(_ sender: Any) {
-         model.addToNewValue(digit:  "1")
+        model.addToNewValue(digit:  "1")
+        labelDisplay.text = model.providedValue
     }
     
+    @IBAction func twoPressed(_ sender: Any) {
+        model.addToNewValue(digit: "2")
+        labelDisplay.text = model.providedValue
+
+    }
     
     
     

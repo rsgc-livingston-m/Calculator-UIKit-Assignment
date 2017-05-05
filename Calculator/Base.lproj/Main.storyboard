@@ -164,6 +164,9 @@
                                                 <state key="normal" title="2">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="twoPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q0K-m9-Ecc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lt-OR-j3p">
                                                 <rect key="frame" x="188" y="0.0" width="93" height="110"/>
@@ -229,8 +232,6 @@
                     </view>
                     <connections>
                         <outlet property="labelDisplay" destination="dRP-ll-fec" id="qS6-dO-3hm"/>
-                        <outlet property="onePressed" destination="LPj-T1-SJS" id="rJL-5N-gNO"/>
-                        <outlet property="twoPressed" destination="x7F-jZ-Ume" id="Nv8-Tt-VhX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
