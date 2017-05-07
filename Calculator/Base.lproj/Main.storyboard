@@ -42,6 +42,9 @@
                                                 <state key="normal" title="C">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="clear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ZX-e4-tPJ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMo-th-lhn">
                                                 <rect key="frame" x="94" y="0.0" width="93" height="110"/>
@@ -58,6 +61,9 @@
                                                 <state key="normal" title="%">
                                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="percentage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="27b-5d-g3X"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2S-2c-Gic">
                                                 <rect key="frame" x="282" y="0.0" width="93" height="110"/>
@@ -66,6 +72,9 @@
                                                 <state key="normal" title="÷">
                                                     <color key="titleColor" red="0.97996802569999997" green="1" blue="0.99292328080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="divide:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Df-WQ-s3b"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -112,6 +121,9 @@
                                                 <state key="normal" title="✕">
                                                     <color key="titleColor" red="0.97996802569999997" green="1" blue="0.99292328080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="multiply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hxZ-h2-BTl"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -158,6 +170,10 @@
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" red="0.97996802569999997" green="1" blue="0.99292328080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="subtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SEq-p0-n8U"/>
+                                                    <action selector="subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Das-rg-oyn"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -204,6 +220,9 @@
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" red="0.97996802569999997" green="1" blue="0.99292328080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="addition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iHS-IQ-0jA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -239,6 +258,9 @@
                                                 <state key="normal" title="=">
                                                     <color key="titleColor" red="0.97996802569999997" green="1" blue="0.99292328080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="equals:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Zo-Es-Zcb"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -263,7 +285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1199" y="13"/>
+            <point key="canvasLocation" x="-1681" y="-195"/>
         </scene>
     </scenes>
 </document>
