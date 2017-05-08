@@ -38,6 +38,10 @@ class ViewController: UIViewController {
         labelDisplay.text = model.providedValue
 
     }
+    @IBAction func decimalPressed(_ sender: Any) {
+        model.addToNewValue(digit: "2")
+        labelDisplay.text = model.providedValue
+    }
     
     @IBAction func zeroPressed(_ sender: Any) {
         model.addToNewValue(digit: "0")
@@ -90,7 +94,6 @@ class ViewController: UIViewController {
             labelDisplay.text = String(describing: model.computedValue!)
             labelDisplay.text = String(format: "%g", model.computedValue!)
         }
-    
    }
     @IBAction func divide(_ sender: Any) {
         model.divide() 
@@ -102,6 +105,7 @@ class ViewController: UIViewController {
     @IBAction func addition(_ sender: Any) {
         model.addition()
     }
+        }
     
     
-       }
+   
