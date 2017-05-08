@@ -39,7 +39,7 @@ class ViewController: UIViewController {
 
     }
     @IBAction func decimalPressed(_ sender: Any) {
-        model.addToNewValue(digit: "2")
+        model.addToNewValue(digit: ".")
         labelDisplay.text = model.providedValue
     }
     
