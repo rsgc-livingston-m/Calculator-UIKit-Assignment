@@ -171,8 +171,6 @@
                                                     <color key="titleColor" red="0.97996802569999997" green="1" blue="0.99292328080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="addition:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hZd-FT-W1y"/>
-                                                    <action selector="subtract:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SEq-p0-n8U"/>
                                                     <action selector="subtraction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Das-rg-oyn"/>
                                                 </connections>
                                             </button>
