@@ -74,14 +74,15 @@ class Calculator {
     func plusMinus() {
         if providedValue == "" {
             if var temp = computedValue {
-                temp = temp * -1
+                temp = temp * (-1)
                 providedValue = String(format: "%g", temp)
             }
         }
         else {
             if var temp = Double(providedValue) {
-                temp = temp * -1
+                temp = temp * (-1)
                 providedValue = String(format: "%g", temp)
+                updateState()
             }
         }
     }
