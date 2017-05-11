@@ -232,7 +232,7 @@
                                         <rect key="frame" x="0.0" y="556.5" width="375" height="110.5"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzJ-pP-QXT">
-                                                <rect key="frame" x="0.0" y="0.0" width="186" height="110.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187" height="110.5"/>
                                                 <color key="backgroundColor" red="0.97996802569999997" green="1" blue="0.99292328080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                                 <state key="normal" title="0">
@@ -243,7 +243,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o5O-qm-be3">
-                                                <rect key="frame" x="187" y="0.0" width="93" height="110.5"/>
+                                                <rect key="frame" x="188" y="0.0" width="93" height="110.5"/>
                                                 <color key="backgroundColor" red="0.97996802569999997" green="1" blue="0.99292328080000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                                 <state key="normal" title=".">
@@ -254,7 +254,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5v-Xz-sen">
-                                                <rect key="frame" x="281" y="0.0" width="94" height="110.5"/>
+                                                <rect key="frame" x="282" y="0.0" width="93" height="110.5"/>
                                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                                 <state key="normal" title="=">
@@ -268,8 +268,8 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="tzJ-pP-QXT" firstAttribute="width" secondItem="LPj-T1-SJS" secondAttribute="width" multiplier="2:1" id="gA4-47-2zN"/>
-                                    <constraint firstItem="o5O-qm-be3" firstAttribute="width" secondItem="0lt-OR-j3p" secondAttribute="width" id="mhk-iF-y2x"/>
+                                    <constraint firstItem="tzJ-pP-QXT" firstAttribute="width" secondItem="LPj-T1-SJS" secondAttribute="width" multiplier="2.01:1" id="gA4-47-2zN"/>
+                                    <constraint firstItem="o5O-qm-be3" firstAttribute="width" secondItem="0lt-OR-j3p" secondAttribute="width" id="oeA-d7-ZtK"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -287,7 +287,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1769" y="-244"/>
+            <point key="canvasLocation" x="-1340" y="-317"/>
         </scene>
     </scenes>
 </document>
