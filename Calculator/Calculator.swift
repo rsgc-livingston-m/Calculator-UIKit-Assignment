@@ -41,6 +41,7 @@ class Calculator {
         // Set the operation
         operation = Operation.division
         
+      
         updateState()
     }
     /**
@@ -49,14 +50,25 @@ class Calculator {
     func addition() {
         //set the operation
         operation = Operation.addition
+      
         updateState()
     }
  //Sets calculator operation to subtraction, and computes a new value, if needed.
     func subtraction() {
         //set the operation
         operation = Operation.subtraction
+       
         updateState()
     }
+    
+//Sets calculator operation to subtraction, and computea a new value, if needed.
+    func percentage() {
+        //set the operation
+        operation = Operation.subtraction
+       
+        updateState()
+    }
+    
     /**
      Updates calculator state.
      
@@ -110,6 +122,12 @@ class Calculator {
             computedValue = computedValue! + Double(providedValue)!
         } else if operation == Operation.subtraction {
             computedValue = computedValue! - Double(providedValue)!
+        } else if operation == Operation.percentage {
+            if computedValue != nil {
+                computedValue = computedValue! * (0.01)
+            } else {
+                computedValue = 0
+            }
         }
     
         // The operation selected has been performed, so get ready to receive new operation

@@ -109,6 +109,14 @@ class ViewController: UIViewController {
     @IBAction func subtraction(_ sender: Any) {
         model.subtraction()
     }
+    @IBAction func percentage(_ sender: Any) {
+        model.percentage()
+        labelDisplay.text = String(describing: model.computedValue! * 0.01)
+    }
+    @IBAction func plusMinus(_ sender: Any) {
+        model.percentage()
+        labelDisplay.text = String(describing: model.computedValue! * (-1))
+    }
     
 }
    
