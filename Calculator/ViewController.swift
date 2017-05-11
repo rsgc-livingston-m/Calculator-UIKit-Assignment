@@ -114,8 +114,8 @@ class ViewController: UIViewController {
         labelDisplay.text = String(describing: model.computedValue! * 0.01)
     }
     @IBAction func plusMinus(_ sender: Any) {
-        model.percentage()
-        labelDisplay.text = String(describing: model.computedValue! * (-1))
+        model.plusMinus()
+        equals("")
     }
     
 }
