@@ -72,20 +72,12 @@ class Calculator {
     //Sets the calculator operation to subtraction, and computes a new value, if needed.
     
     func plusMinus() {
-        if providedValue == "" {
-            if var temp = computedValue {
-                temp = temp * (-1)
-                providedValue = String(format: "%g", temp)
-            }
+      //set the operation
+        operation = Operation.plusMinus
+        
+        updateState()
         }
-        else {
-            if var temp = Double(providedValue) {
-                temp = temp * (-1)
-                providedValue = String(format: "%g", temp)
-                updateState()
-            }
-        }
-    }
+    
 
 
     /**
